@@ -3,7 +3,7 @@
 > A lighterweight lightbox gallery module. A simple plugin supporting modern browsers only to minimize configuration and hacky code. Customizable.
 
 ## Example
-[Click me](http://www.hensonism.com/static/plugins/jquery/lighterbox/)
+[See an example here.](http://www.hensonism.com/static/plugins/jquery/lighterbox/)
 
 ## Installation
 
