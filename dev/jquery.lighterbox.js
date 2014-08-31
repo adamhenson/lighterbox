@@ -80,10 +80,11 @@
   };
 
   // Re-position the image
-  Plugin.prototype.reposition = function( $el ) {
+  Plugin.prototype.reposition = function( $el, $caption ) {
 
     var init = function(){
-      var marginTop = -(Math.floor(parseInt($el.height()) / 2));
+      var captionHeight = ($caption.height() > 0) ? $caption.height() : 0;
+      var marginTop = -((Math.floor(parseInt($el.height()) / 2)) + (captionHeight / 2));
       var marginRight = -(Math.floor(parseInt($el.width()) / 2));
       $el.css({
         "margin-top" : marginTop + "px",
@@ -184,7 +185,7 @@
 
       // Re-position image
       $img.load(function(){
-        repositioner = new that.reposition($(this));
+        repositioner = new that.reposition($(this), $caption);
         repositioner.init();
         $(window).resize(repositioner.init);
         that.destroy([$loader]);

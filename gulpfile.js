@@ -25,7 +25,7 @@ gulp.task('minify', function() {
         path.basename += '.' + package.version;
       }
     }))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./versions'));
 
   gulp.src('./dev/jquery.lighterbox.js')
     .pipe(uglify())
@@ -34,7 +34,7 @@ gulp.task('minify', function() {
         path.basename += '.' + package.version + '.min';
       }
     }))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./versions'));
 
 });
 

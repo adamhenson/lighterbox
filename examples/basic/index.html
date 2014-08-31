@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>lighterbox</title>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.lighterbox.0.0.1.min.js"></script>
+    <script>
+        $(function(){ // document ready
+            $(".lighterbox").lighterbox({ overlayColor : "white" });
+        });
+    </script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+
+    /**
+     *
+     * This styling is mostly to display the gallery.
+     * The plugin handles most styling. The CSS below is mostly for the gallery layout.
+     *
+     */
+
+        body, h1, h2{
+            font-family: 'Roboto', Arial, sans-serif;
+            font-weight: 300;
+        }
+        article {
+            max-width:610px;
+            margin: 0.5em auto;
+        }
+        h1 {
+            font-size: 2.7em;
+            text-align: center;
+        }
+        section {
+            max-width: 49%;
+            float: left;
+            margin-right: 0.5%;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a h2, a p {
+            /* hide the title and caption until lighterbox shows it */
+            display: none;
+        }
+        @media (max-width: 400px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            section {
+                max-width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1><strong>lighterbox</strong> Example</h1>
+<article>
+    <section>
+        <a href="https://s3.amazonaws.com/hensonism-art/paul-gauguin/gaugin1.jpg" class="lighterbox">
+            <img src="https://s3.amazonaws.com/hensonism-art/paul-gauguin/thumbs/gaugin1.jpg" />
+            <h2 class="lighterbox-title">Painting #1 by Paul Gaugin</h2>
+            <p class="lighterbox-desc">Oil on Canvas</p>
+        </a>
+    </section>
+    <section>
+        <a href="https://s3.amazonaws.com/hensonism-art/paul-gauguin/gaugin2.jpg" class="lighterbox">
+            <img src="https://s3.amazonaws.com/hensonism-art/paul-gauguin/thumbs/gaugin2.jpg" />
+            <h2 class="lighterbox-title">Painting #2 by Paul Gaugin</h2>
+            <p class="lighterbox-desc">Oil on Canvas</p>
+        </a>
+    </section>
+    <section>
+        <a href="https://s3.amazonaws.com/hensonism-art/paul-gauguin/gaugin3.jpg" class="lighterbox">
+            <img src="https://s3.amazonaws.com/hensonism-art/paul-gauguin/thumbs/gaugin3.jpg" />
+            <h2 class="lighterbox-title">Painting #3 by Paul Gaugin</h2>
+            <p class="lighterbox-desc">Oil on Canvas</p>
+        </a>
+    </section>
+    <section>
+        <a href="https://s3.amazonaws.com/hensonism-art/paul-gauguin/gaugin4.jpg" class="lighterbox">
+            <img src="https://s3.amazonaws.com/hensonism-art/paul-gauguin/thumbs/gaugin4.jpg" />
+            <h2 class="lighterbox-title">Painting #4 by Paul Gaugin</h2>
+            <p class="lighterbox-desc">Oil on Canvas</p>
+        </a>
+    </section>
+</article>
+</body>
+</html>
