@@ -1,11 +1,12 @@
 {
   "name": "lighterbox",
   "title": "lighterbox",
-  "description": "A lighterweight lightbox gallery module.",
+  "description": "A lighterweight lightbox gallery module for modern desktop and mobile browsers.",
   "keywords": [
     "jquery",
     "jqueryplugin",
     "lightbox",
+    "mobile",
     "shadowbox",
     "fancybox",
     "colorbox",
@@ -13,7 +14,7 @@
     "dialog",
     "image"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Adam Henson",
     "url": "https://github.com/adamhenson"

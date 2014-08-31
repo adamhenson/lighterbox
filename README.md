@@ -1,6 +1,6 @@
 #lighterbox
 
-> A lighterweight lightbox gallery module. A simple plugin supporting modern browsers only to minimize configuration and hacky code. Customizable.
+> A lighterweight lightbox gallery module. A simple plugin supporting modern mobile and desktop browsers to minimize configuration and hacky code. Customizable.
 
 ## Example
 [See an example here.](http://www.hensonism.com/static/plugins/jquery/lighterbox/)

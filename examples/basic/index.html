@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
     <title>lighterbox</title>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="js/jquery.lighterbox.0.0.1.min.js"></script>
+    <script src="js/jquery.lighterbox.0.0.2.min.js"></script>
     <script>
         $(function(){ // document ready
             $(".lighterbox").lighterbox({ overlayColor : "white" });
@@ -45,11 +46,14 @@
             color: black;
             text-decoration: none;
         }
+        a:hover img {
+            opacity:0.7;
+        }
         a h2, a span {
             /* hide the title and caption until lighterbox shows it */
             display: none;
         }
-        @media (max-width: 400px) {
+        @media (max-width: 500px) {
             h1 {
                 font-size: 1.5em;
             }
