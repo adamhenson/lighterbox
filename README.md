@@ -5,7 +5,7 @@
 ## Example
 [See an example here.](http://www.hensonism.com/static/plugins/jquery/lighterbox/)
 
-## Installation
+## Usage
 
 Download **lighterbox** and reference it after jQuery.
 
@@ -15,9 +15,7 @@ Download **lighterbox** and reference it after jQuery.
 
 Or load via synchronous or asynchronous module definition.
 
-## Usage
-
-All basic styling is set in the JS, however it would be easy to override using the class selectors.
+> All basic styling is set in the JS, however it would be easy to override using the class selectors.
 
 ### HTML
 ```html
