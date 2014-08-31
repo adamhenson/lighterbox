@@ -25,7 +25,6 @@ Or load via synchronous or asynchronous module definition.
 ### JavaScript
 ```javascript
 $(".lighterbox").lighterbox({ overlayColor : "white" });
-});
 ```
 
 ## Options
