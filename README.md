@@ -24,7 +24,7 @@ All basic styling is set in the JS, however it would be easy to override using t
 <a href="https://s3.amazonaws.com/hensonism-art/paul-gauguin/gaugin3.jpg" class="lighterbox">
 	<img src="https://s3.amazonaws.com/hensonism-art/paul-gauguin/thumbs/gaugin3.jpg" />
 	<h2 class="lighterbox-title">Painting by Paul Gaugin</h2>
-	<p class="lighterbox-desc">Oil on Canvas</p>
+	<span class="lighterbox-desc">Oil on Canvas</span>
 </a>
 ```
 ### JavaScript
