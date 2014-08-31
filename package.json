@@ -1,0 +1,42 @@
+{
+  "name": "lighterbox",
+  "title": "lighterbox",
+  "description": "A lighterweight lightbox gallery module.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/adamhenson/lighterbox",
+  "author": {
+    "name": "Adam Henson",
+    "url": "https://github.com/adamhenson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamhenson/lighterbox"
+  },
+  "bugs": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">= 1.7"
+  },
+  "keywords": [
+    "jquery",
+    "jqueryplugin",
+    "lightbox",
+    "shadowbox",
+    "fancybox",
+    "colorbox",
+    "gallery",
+    "dialog",
+    "image"
+  ],
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-uglify": "^0.3.1",
+    "gulp-jshint": "^1.8.0",
+    "gulp-rename": "^1.2.0"
+  }
+}
