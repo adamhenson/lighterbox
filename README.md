@@ -33,6 +33,6 @@ $(".lighterbox").lighterbox({ overlayColor : "white" });
 ```
 
 ## Options
-- overlayColor : {string} "white" or "black" options sets the theme. Default is white.
+- overlayColor : {string} "white" or "black" options set the theme. Default is white.
 - overlayOpacity : {string or integer} Any valid css value.
 - animateSpeed : {string or integer} Any valid css value.
