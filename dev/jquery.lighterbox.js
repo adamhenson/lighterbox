@@ -167,7 +167,7 @@
       }
       $close.addClass(pluginName + "-close")
         .attr("href", "#")
-        .html("x")
+        .html("×")
         .css(that.options.closeCss)
         .appendTo("body");
 
