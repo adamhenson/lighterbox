@@ -1,5 +1,6 @@
-# gulp-mongobackup changelog
+# lighterbox changelog
 
-## 0.1.1
+## 0.0.3
 
-- Coming soon... dun dun dun dunnnnn
+- Added better support for touch event.
+- Adjusted close button for a different look.
