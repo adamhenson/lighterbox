@@ -7,4 +7,4 @@
 
 ## 0.0.4
 
-- Bugfix: if no title then no caption should be shown.
+- Bugfix: if no title, then no caption should be shown.
