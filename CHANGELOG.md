@@ -4,3 +4,7 @@
 
 - Added better support for touch event.
 - Adjusted close button for a different look.
+
+## 0.0.4
+
+- Bugfix: if no title then no caption should be shown.

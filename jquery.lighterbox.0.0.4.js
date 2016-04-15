@@ -234,6 +234,12 @@
       that.options.captionCss.color = "#000";
       that.options.captionCss.background = "#fff";
     }
+
+    // If the title is empty then we shouldn't show a caption
+    if(imageTitle === "") {
+      that.options.captionCss.display = 'none';
+    }
+    
     $caption.addClass(pluginName + "-caption")
       .html("<p class='" + pluginName + "-overlay-title'>" + imageTitle + "</p>" + "<p class='" + pluginName + "-overlay-desc'>" + imageDesc + "</p>")
       .css(that.options.captionCss)
