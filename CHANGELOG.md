@@ -8,3 +8,7 @@
 ## 0.0.4
 
 - Bugfix: if no title, then no caption should be shown.
+
+## 0.0.5
+
+- Bugfix: fix touch.

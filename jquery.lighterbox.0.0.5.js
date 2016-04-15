@@ -63,7 +63,6 @@
     },
     "touch" : {
       "supportTouch" : true,
-      "touchStarted" : false,
       "currX" : 0,
       "currY" : 0,
       "cachedX" : 0,
@@ -95,7 +94,9 @@
     // if we have a touch event and we're supporting touch then make sure
     // it's a tap... otherwise assuming click - proceed
     if(e.type === "touchend" && that.options.touch.supportTouch) {
-      if((that.options.touch.cachedX === that.options.touch.currX) && !that.options.touch.touchStarted && (that.options.touch.cachedY === that.options.touch.currY)) callback.call();
+      if((that.options.touch.cachedX === that.options.touch.currX) && (that.options.touch.cachedY === that.options.touch.currY)) {
+        callback.call();
+      }
     } else {
       callback.call();
     }
@@ -115,14 +116,6 @@
       that.options.touch.cachedX = that.options.touch.currX = pointer.pageX;
       // caching the current y
       that.options.touch.cachedY = that.options.touch.currY = pointer.pageY;
-      // a touch event is detected
-      that.options.touch.touchStarted = true;
-    });
-
-    // track touchend
-    $body.on("touchend", function(e){
-      // here we can consider finished the touch event
-      that.options.touch.touchStarted = false;
     });
 
     // track touchmove
