@@ -1,4 +1,4 @@
-#lighterbox
+# lighterbox
 
 A lighterweight lightbox gallery module. A simple plugin supporting modern mobile and desktop browsers to minimize configuration and hacky code. Customizable.
 
