@@ -1,16 +1,15 @@
 #lighterbox
 
-> A lighterweight lightbox gallery module. A simple plugin supporting modern mobile and desktop browsers to minimize configuration and hacky code. Customizable.
+A lighterweight lightbox gallery module. A simple plugin supporting modern mobile and desktop browsers to minimize configuration and hacky code. Customizable.
 
-## Example
-[See an example here.](http://www.hensonism.com/static/plugins/jquery/lighterbox/index.html)
+> NOTE (from Adam): I no longer contribute to this plugin, but I'm happy to review and manage PRs.
 
 ## Usage
 
 Download **lighterbox** and reference it after jQuery.
 
 ```javascript
-<script src="/js/libs/jquery/jquery.lighterbox.js"></script>
+<script src="path/to/your/jquery.lighterbox.js"></script>
 ```
 
 Or load via synchronous or asynchronous module definition.
@@ -31,6 +30,6 @@ $(".lighterbox").lighterbox({ overlayColor : "white" });
 ```
 
 ## Options
-- overlayColor : {string} "white" or "black" options set the theme. Default is white.
-- overlayOpacity : {string or integer} Any valid css value.
-- animateSpeed : {string or integer} Any valid css value.
+- `overlayColor` : {`string`} "white" or "black" options set the theme. Default is white.
+- `overlayOpacity` : {`string` or `integer`} Any valid css value.
+- `animateSpeed` : {`string` or `integer`} Any valid css value.
